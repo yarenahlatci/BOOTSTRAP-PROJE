@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PizzaZirve</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header id="header">
+    <nav class="navbar bg-dark border-bottom border-body navbar-expand-md py-3" data-bs-theme="dark">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"> </a>
+          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--mx-auto ile linkleri ortaya alabiliriz!!!. Eğer en sağa yaslansın istersen ms-auto kullanmalıydın.-->
+            <ul class="navbar-nav mx-auto ">
+                
+              <li class="nav-item ">
+                
+                <a class="nav-link active" aria-current="page" href="#">ANASAYFA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">HAKKIMIZDA</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ÜRÜNLER
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">MENÜLER 🍴</a></li>
+                  <li><a class="dropdown-item" href="#">PİZZALAR 🍕</a></li>
+                  <li><a class="dropdown-item" href="#">ÇITIR LEZZETLER 🍟🍔</a></li>
+                  <li><a class="dropdown-item" href="#">İÇECEKLER 🍵</a></li>
+
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <i class="fa-solid fa-pizza-slice fa-rotate-270 fa-2xl" style="color: #ffffff;"></i>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn search-btn" type="submit">Search</button>
+              </form>
+              
+          </div>
+        </div>
+      </nav>
+    </header>
+
+   <!-- ANAFOTOĞRAF -->
+   <section id="hero" class="dark-bg">
+    <div class="container">
+        <div class="d-flex h-100 flex-column text-light justify-content-center">
+            <h1 class="pizza display-1">Sadece en İYİSİ İçin Uğraşırız: <span class="text-warning">Pİzza Tutkumuzla! 🎔</span></h1>
+
+            <p class="lead">Lezzetin ve tutkunun bir araya geldiği yerdeyiz. Sıcacık fırınlarımızdan çıkan taptaze malzemelerle hazırladığımız pizzalarımızla, damaklarınızı şenlendireceğiz. Her dilim, özenle tasarlanmış bir ziyafet. Siz de pizza tutkumuzu deneyimlemek için bugün bize katılın!</p>
+        </div>
+    </div>
+   </section>
+
+   <!-- 3.bölüm -->
+   <div class="d-flex justify-content-between">
+    <!-- Birinci Bölüm (Sol Tarafta) -->
+    <section id="about" class="padding-my w-50">
+      <div class="container-fluid">
+        <div class="text-center">
+        <h2 class="display-5 text-my mb-5 text-center" style="text-transform: uppercase;">Sıcak, Taze, Lezzet Dolu!</h2>
+    </div>
+        <div class="row mb-3">
+          <div class="col-8 bg-light">
+            <div class="d-flex h-100 flex-column justify-content-center">
+              <h4 style="letter-spacing: 4px;text-align: center;margin-bottom: 100px;color: hsl(35, 80%, 40%);">EN İYİSİ İÇİN!</h4>
+              <p style="letter-spacing: 2px;margin-bottom: 100px;">Pizza işini bir tutku olarak görüyoruz. Her bir malzeme seçiminden, hamurun yoğurulmasına kadar her adımda en iyisini sunmaya odaklanıyoruz. Sadece pizza değil, aynı zamanda kalitemizle de gurur duyuyoruz. Size sadece lezzet değil, aynı zamanda bir deneyim sunuyoruz.</p>
+            </div>
+          </div>
+          <div class="col-4 p-0">
+            <img src="img/4.jpg" alt="" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- İkinci Bölüm (Sağ Tarafta) -->
+    <section id="about" class="padding-my w-50">
+      <div class="container-fluid">
+        <div class="text-center">
+
+        <h2 class="display-5 text-my mb-5 text-center" style="text-transform: uppercase;font-size: 38px;">Tatlar Arasında Bir Seyahat!</h2>
+        </div>
+        <div class="row mb-3">
+          <div class="col-8 bg-light">
+            <div class="d-flex h-100 flex-column justify-content-center">
+              <h4 style="letter-spacing: 4px;text-align: center;margin-bottom: 100px;color: hsl(35, 80%, 40%);">Lezzetli Anlarınıza Ortak Olalım!</h4>
+              <p style="letter-spacing: 2px;margin-bottom: 100px;">Biz, sadece pizza satan bir marka değiliz. Sizlerin mutlu anlarınıza eşlik eden bir parçayız. Arkadaşlarınızla paylaşacağınız bir akşam yemeği, ailenizle geçireceğiniz keyifli bir an... Bizim pizzalarımızla lezzetinizi taçlandırın, anılarınıza tat katın.</p>
+            </div>
+          </div>
+          <div class="col-4 p-0  order-first">
+            <img src="img/4 - Kopya.jpg" alt="" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <!-- HAZIRLIK SÜRECİ -->
+<section id="latest">
+    <div class="container">
+        <h2 class="display-5 text-my mb-5 text-center">
+            <span class="animated-text" id="animated-text">🍕 ÖZENLE 🎔 HAZIRLARIZ 🍕</span>
+        </h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-0 ">
+                <div class="latest-item">
+                    <button class="btn p-0 rounded-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="img/1.jpg" alt="" class="img-fluid">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <i class="bi bi-chevron-double-down"></i>
+                        </div>
+                      </button>
+                </div>
+            </div>
+            <div class="col p-0"> 
+                <div class="latest-item">
+                <button class="btn p-0 rounded-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="img/6.jpg" alt="" class="img-fluid">
+                    <div class="overlay d-flex align-items-center justify-content-center">
+                        <i class="bi bi-chevron-double-down"></i>
+                    </div>
+                  </button>
+            </div></div>
+            <div class="col p-0"> 
+                <div class="latest-item">
+                <button class="btn p-0 rounded-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="img/pizza.jpg" alt="" class="img-fluid">
+                    <div class="overlay d-flex align-items-center justify-content-center">
+                        <i class="bi bi-chevron-double-down"></i>
+                    </div>
+                  </button>
+            </div></div>
+            <div class="col p-0"> 
+                <div class="latest-item">
+                <button class="btn p-0 rounded-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="img/hazırlama4.jpg" alt="" class="img-fluid">
+                    <div class="overlay d-flex align-items-center justify-content-center">
+                        <i class="bi bi-chevron-double-down"></i>
+                    </div>
+                  </button>
+            </div></div>
+        </div>
+        <div class="row">
+            <div class="collapse" id="collapseExample1">
+                <div class="container-fluid p-0 mt-5 ">
+                    <div class="row p-0 ">
+                        <div class="col p-0 ">
+                            <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample"></button>
+                            <dl class="row ps-5">
+                            <dl class="col-12"><span class="text-danger lead">PİZZA 1</span></dl>
+                            <dt class="col-4">HAZIRLIK 1</dt>
+                            <dd class="col-8"> Hamurun Açılması</dd>
+                            <dt class="col-4">HAZIRLIK 2</dt>
+                            <dd class="col-8"> Sos ve Malzemelerin Eklenmesi</dd>
+                            <dt class="col-4">HAZIRLIK 3</dt>
+                            <dd class="col-8"> Pişirme & SERVİS</dd>
+                            <dt class="col-4">HAZIRLIK 4</dt>
+                            <dd class="col-8"> SERVİS</dd>
+                            </dl>
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlama1.jpg" alt="" class="img-fluid img-hover">
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlama5.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlama3.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlamason.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="collapse" id="collapseExample2">
+                <div class="container-fluid p-0 mt-5 ">
+                    <div class="row p-0 ">
+                        <div class="col p-0 ">
+                            <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"></button>
+                            <dl class="row ps-5">
+                            <dl class="col-12"><span class="text-danger lead">PİZZA 2</span></dl>
+                            <dt class="col-4">HAZIRLIK 1</dt>
+                            <dd class="col-8"> Hamurun Açılması</dd>
+                            <dt class="col-4">HAZIRLIK 2</dt>
+                            <dd class="col-8"> Sos ve Malzemelerin Eklenmesi</dd>
+                            <dt class="col-4">HAZIRLIK 3</dt>
+                            <dd class="col-8"> Pişirme & SERVİS</dd>
+                            <dt class="col-4">HAZIRLIK 4</dt>
+                            <dd class="col-8"> SERVİS</dd>
+                            </dl>
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlık6.jpg" alt="" class="img-fluid img-hover">
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlık7.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlık8.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/hazırlık9.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="collapse" id="collapseExample3">
+                <div class="container-fluid p-0 mt-5 ">
+                    <div class="row p-0 ">
+                        <div class="col p-0 ">
+                            <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"></button>
+                            <dl class="row ps-5">
+                            <dl class="col-12"><span class="text-danger lead">PİZZA ÇEŞİTLERİ</span></dl>
+                            <dt class="col-4">PİZZA 1</dt>
+                            <dd class="col-8"> KLASİK PİZZA</dd>
+                            <dt class="col-4">PİZZA 2</dt>
+                            <dd class="col-8"> SEBZELİ PİZZA</dd>
+                            <dt class="col-4">PİZZA 3</dt>
+                            <dd class="col-8"> PEYNİRLİ PİZZA</dd>
+                            <dt class="col-4">PİZZA 4</dt>
+                            <dd class="col-8"> ÖZEL SOSLU PİZZA</dd>
+                            </dl>
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/m1.jpg" alt="" class="img-fluid img-hover">
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/3.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/8.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/11.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="collapse" id="collapseExample4">
+                <div class="container-fluid p-0 mt-5 ">
+                    <div class="row p-0 ">
+                        <div class="col p-0 ">
+                            <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample"></button>
+                            <dl class="row ps-5">
+                            <dl class="col-12"><span class="text-danger lead">ÇITIR LEZZETLER</span></dl>
+                            <dt class="col-4">LEZZET 1</dt>
+                            <dd class="col-8"> PATATES KIZARTMASI</dd>
+                            <dt class="col-4">LEZZET 2</dt>
+                            <dd class="col-8"> DİLİM PİZZA </dd>
+                            <dt class="col-4">LEZZET 3</dt>
+                            <dd class="col-8"> SARIMSAKLI EKMEK</dd>
+                            <dt class="col-4">LEZZET 4</dt>
+                            <dd class="col-8"> NUGGETS</dd>
+                            </dl>
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/patates.jpg" alt="" class="img-fluid img-hover">
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/dilim.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/sarımsaklıekmek.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                        <div class="col p-0 ">
+                            <img src="img/nugget.jpg" alt="" class="img-fluid img-hover">
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<br><br>
+<section id="blog" class="generic">
+    <div class="container">
+        <div class="text-center"> <!-- Orta hizalama ekledik -->
+            <h2 class="display-5 text-my mb-5 fav-my text-shake ">💯 EN SEVİLEN 4 ÜRÜN 💯</h2>
+        </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+
+          <div class="card bg-light border-0">
+            <img src="img/11.jpg" class="card-img-top rounded-0 animasyon-img">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase mb-4 fw-bold">
+                Favori Pizza
+
+            </h5>
+              
+              <p class="card-text p-animasyon">
+                Bu pizza, incecik hamurun altında gizlenen yoğun lezzetleriyle sizi büyüleyecek. Her bir dilimde bulunan malzemelerin mükemmel uyumu, damakta bıraktığı lezzet patlamasıyla sizi etkisi altına alacak. Bu pizza, gerçek lezzetin sırrını taşıyor. Pizza ziyafetinin keyfini çıkarabilirsiniz. <br> 
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        4 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        110
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-light border-0">
+            <img src="img/fav1.avif" class="card-img-top rounded-0 animasyon-img">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase mb-4 fw-bold">
+                FAVORİ PİZZA
+              </h5>  
+              <p class="card-text p-animasyon">
+                Akdeniz Güneşi, tatlı ve hafif lezzetleriyle sizi sıcak Akdeniz sahillerine taşıyacak bir pizza. Zeytinler, taze domates dilimleri, mozarella peyniri ve taze fesleğen yapraklarıyla süslenmiş bu pizza, Akdeniz mutfağının tazeliğini sofranıza taşıyor.Her ısırıkta Akdeniz'in sıcaklığını hissedin! <br> 
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        2 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        210
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-light border-0">
+            <img src="img/m1.jpg" class="card-img-top rounded-0 animasyon-img">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase mb-4 fw-bold">
+                FAVORİ PİZZA
+              </h5>
+              
+              <p class="card-text p-animasyon">
+                Tadıyla ve görüntüsüyle sizi şaşırtacak olan bu pizza, lezzetli dengeyi en iyi şekilde yakalıyor. Her bir katmandaki malzemenin hassas seçimi, her ısırıkta kendini hissettiriyor. Dolgun ve zengin aromaların buluşması, bu pizzayı adeta bir sanat eseri haline getiriyor. <br>
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        5 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        170
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-none d-md-block d-lg-none">
+          <div class="card bg-light border-0">
+            <img src="img/3.jpg" class="card-img-top rounded-0 animasyon-img">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase mb-4 fw-bold">
+                FAVORİ PİZZA
+              </h5>
+              <p class="card-text p-animasyon">
+                Sofranıza gelen bu pizza, aromaların muhteşem bir dansı gibi. Her bir malzeme, diğerine mükemmel bir şekilde eşlik ediyor ve ağızda enfes bir uyum yaratıyor. Tatların birbiriyle uyumu, her dilimde kendini göstererek damakta unutulmaz bir iz bırakıyor. Aromaların dansı, bu pizzanın en büyük sırrı. <br>
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        1 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        260
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTİON -->
+  <section id="divider" class="generic dark-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <form>
+            <div class="input-group input-group-lg">
+              <input type="email" class="form-control rounded-0 border-danger text-white bg-transparent"
+                placeholder="@LATEST NEWS">
+              <span class="input-group-btn input-group-lg">
+                <input type="submit" class="btn btn-danger rounded-0 text-white border-danger" value="SUBSCRIBE">
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- KAMPANYA -->
+<section id="idapproach" class="generic">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="display-5 text-my mb-5 fav-my text-shake">
+        <span style="font-size: 1.5rem;">🎉</span> KAMPANYA <span style="font-size: 1.5rem;">🎉</span>
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-6">
+        <div class="card bg-light border-0 mb-5">
+          <div class="price-container">
+            <p class="price-label">SADECE 180 ₺ </p>
+          </div>
+          <img src="img/kampanya1.jpg" class="card-img-top rounded-0">
+          <div class="card-body">
+            <div class="text-center">
+            <h4 class="lead text-uppercase mb-4 text-shake fav-my text-my"> 🍕 BENİM İKİLİM 🍕</h4>
+          </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    SEÇECEĞİNİZ 2 PİZZA
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Pepperoni Rüyası Pizza</li>
+                      <li>Akdeniz Zevki Pizza</li>
+                      <li>Margarita Pizza</li>
+                      <li>Vejetaryen Pizza</li>
+                      <li>Sucuklu Pizza</li>
+                      <li>Deniz Mahsulleri Pizza</li>
+                      <li>BBQ Tavuklu Pizza</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    SEÇECEĞİNİZ 2 ÇITIR ATIŞTIRMALIK
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Parmesanlı Sarımsaklı Ekmek Dilimleri</li>
+                      <li>Acılı Patates Kızartmaları</li>
+                      <li>Mozzarella Sticks</li>
+                      <li>Jalapeno Poppers</li>
+                      <li>Nachos</li>
+                      <li>Mini Pizza Ruloları</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    SEÇECEĞİNİZ İÇECEK
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                      <ul>
+                        <li>Kola</li>
+                        <li>Ayran</li>
+                        <li>Limonata</li>
+                        <li>Buzlu Çay</li>
+                        <li>Maden Suyu</li>
+                      </ul>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-6">
+        <div class="card bg-light border-0">
+          <div class="price-container">
+            <p class="price-label">SADECE 240 ₺ </p>
+          </div>
+          <img src="img/kampanya2.jpg" class="card-img-top rounded-0">
+          <div class="card-body">
+            <div class="text-center">
+            <h5 class="lead text-uppercase mb-4 text-shake fav-my text-my">🍕 BENİM ÜÇLÜM 🍕</h5>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    SEÇECEĞİNİZ 3 PİZZA
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse " aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">
+                    <ul>
+                    <li>Pepperoni Rüyası Pizza</li>
+                    <li>Akdeniz Zevki Pizza</li>
+                    <li>Margarita Pizza</li>
+                    <li>Vejetaryen Pizza</li>
+                    <li>Sucuklu Pizza</li>
+                    <li>Deniz Mahsulleri Pizza</li>
+                    <li>BBQ Tavuklu Pizza</li>
+                  </ul></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                   SEÇECEĞİNİZ 3 ÇITIR ATIŞTIRMALIK
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">
+                    <ul>
+                    <li>Parmesanlı Sarımsaklı Ekmek Dilimleri</li>
+                    <li>Acılı Patates Kızartmaları</li>
+                    <li>Mozzarella Sticks</li>
+                    <li>Jalapeno Poppers</li>
+                    <li>Nachos</li>
+                    <li>Mini Pizza Ruloları</li>
+                  </ul></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    SEÇECEĞİNİZ 2 İÇECEK
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                  data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body"><ul>
+                    <li>Kola</li>
+                    <li>Ayran</li>
+                    <li>Limonata</li>
+                    <li>Buzlu Çay</li>
+                    <li>Maden Suyu</li>
+                  </ul></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ekibimiz -->
+<section id="team" class="generic">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="display-5 text-my mb-5 fav-my text-shake">
+        <span style="font-size: 1.5rem;">👨‍🍳</span> EKİBİMİZ <span style="font-size: 1.5rem;">👩‍🍳</span>
+      </h2>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 p-0">
+        <div class="d-grid bg-danger py-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-danger rounded-0 py-5" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            <span class="lead span-animasyon" style="text-transform: uppercase;">Özel Pepperoni uzmanı</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3  p-0">
+        <div class="d-grid bg-warning py-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-warning rounded-0 py-5" data-bs-toggle="modal"
+            data-bs-target="#exampleModal2">
+            <span class="lead span-animasyon" style="text-transform: uppercase;">Akdeniz tarifleri uzmanı</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3  p-0">
+        <div class="d-grid bg-success py-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success rounded-0 py-5" data-bs-toggle="modal"
+            data-bs-target="#exampleModal3">
+            <span class="lead span-animasyon" style="text-transform: uppercase;">Deniz mahsulleri uzmanı</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3  p-0">
+        <div class="d-grid bg-info py-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-info rounded-0 py-5" data-bs-toggle="modal"
+            data-bs-target="#exampleModal4">
+            <span class="lead span-animasyon" style="text-transform: uppercase;">Akdeniz tarifleri uzmanı</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--MODAL-->
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        <div class="modal-body">
+          <img src="img/user1.jpg" class="img-fluid">
+          <h4 class="lead text-danger mt-2 text-uppercase h4-animasyon mb-5">Pizza Ustası - Luca Moretti
+          </h4>
+          <p>Luca Moretti, pizza dünyasının ışıltılı yıldızlarından biridir. 10 yıl süren deneyimi ile adeta hamur ve malzemenin sihirbazıdır. Her diliminin altında sıcaklığını hissedeceğiniz tarifler yaratmak konusunda bir üstat olarak kabul edilir. Özellikle Pepperoni Rüyası Pizza'sındaki ustalığı, lezzetin sınırlarını zorlayarak taptaze malzemelerle enfes bir uyum yakalayarak damaklarda unutulmaz izler bırakmaktadır. </p>
+         <p>En sevilen tarifleri arasında baharatlı Pepperoni ile dengelenen özel bir sos kullanımı bulunmaktadır.</p>
+
+          <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
+            <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
+            <button type="button" class="btn btn-info rounded-0">TWITTER</button>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        <div class="modal-body">
+          <img src="img/user2.jpg" class="img-fluid">
+          <h4 class="lead text-danger mt-2 text-uppercase h4-animasyon">Pizza Ustası - Isabella Bianchi
+          </h4>
+          <p>Isabella Bianchi, pizza dünyasının akdeniz esintileriyle dans eden bir meleğidir. 8 yıl boyunca pizza sanatını ustalıkla icra etmiş, her bir dilimde adeta deniz ve güneşin tazeliğini hissedebileceğiniz tatlar sunmuştur. </p>
+          <p> İnce zeytinyağı dokunuşlarıyla, taze otların benzersiz lezzetiyle, renkli sebzelerin coşkusuyla yarattığı Akdeniz Zevki Pizza, adeta bir tatilin hissini damaklarınızda uyandırır. Her bir dilimi, tattığınız her ısırık, sizi uzak diyarlara götürür. Isabella'nın ellerinden çıkan pizzalar, sadece bir yemek değil, bir hayat tarzıdır.</p>
+
+          <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
+            <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
+            <button type="button" class="btn btn-info rounded-0">TWITTER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- MODAL3 -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        <div class="modal-body">
+          <img src="img/user1.jpg" class="img-fluid">
+          <h4 class="lead text-danger mt-2 h4-animasyon mb-5">Pizza Ustası - Rafael Silva
+          </h4>
+          <p>Rafael Silva, pizza dünyasının denizlerin altında gizlenen hazine avcısı gibidir. Deniz mahsulleri konusundaki 5 yıllık uzmanlığı ile her bir dilimi adeta okyanusun hikayesini anlatır. Taze deniz ürünleri, lezzetleriyle dans ederken, seçkin baharatlarla harmanlandığında ortaya çıkan lezzet patlaması adeta bir rüyadan fırlamış gibi hissettirir.</p>
+          <p>  Deniz Mahsulleri Pizza'sı, rafine damaklara hitap ederken bile en yoğun ve doğal tatları sunar. Rafael'in ellerindeki pizza, sadece bir yemek değil, bir gastronomik deneyimdir.</p>
+
+          <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
+            <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
+            <button type="button" class="btn btn-info rounded-0">TWITTER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL4 -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        <div class="modal-body">
+          <img src="img/user2.jpg" class="img-fluid">
+          <h4 class="lead text-danger mt-2 h4-animasyon">Pizza Ustası - Sofia Petrov
+          </h4>
+          <p>Sofia Petrov, pizza dünyasına getirdiği taze ve yenilikçi bakış açısıyla adını altın harflerle yazdırmış bir isimdir. 3 yıl önce adım attığı bu serüvende Vejetaryen Pizza'nın sınırlarını zorlamış, sadece lezzet değil, sağlık ve yaşam tarzıyla da barışık bir yaklaşım sunmuştur. </p>
+          <p> Sofia'nın yaratıcılığı, taze sebzeleri ve sağlıklı malzemeleri bir araya getirerek her bir dilimi adeta doğanın bir şölenine çevirir. Her ısırık, bedeninize ve ruhunuza gelen özenli bir dokunuş gibidir. Sofia'nın elinden çıkan pizzalar, sadece bir yemek değil, yaşamın bir parçasıdır.</p>
+
+          <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
+            <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
+            <button type="button" class="btn btn-info rounded-0">TWITTER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- İLETİŞİM -->
+  <!-- CONTACT SECTION-->
+  <section id="contact" class="generic dark-bg">
+    <div class="container">
+      <div class="text-center text-animasyon1">
+        <h2 class="display-5 text-white mb-5 iletisim-my">GET IN TOUCH</h2>
+
+      </div>
+      <div class="row">
+        <div class=" d-flex justify-content-center align-items-center"> <!-- d-flex ve justify-content-center ekledik -->
+          <form class="row">
+
+            <div class="col-6">
+              <div class="input-group">
+                <div class="input-group-text rounded-0 bg-danger border-danger text-white">
+                  <i class="bi bi-person-fill"></i>
+                </div>
+                <input type="text" class="form-control rounded-0 border-danger text-white bg-transparent"
+                  placeholder="NAME *" required>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="input-group">
+                <div class="input-group-text rounded-0 bg-danger border-danger text-white">
+                  <i class="bi bi-at"></i>
+                </div>
+                <input type="email" class="form-control rounded-0 border-danger text-white bg-transparent"
+                  placeholder="EMAIL *" required>
+              </div>
+            </div>
+
+            <div class="col-12 py-5">
+              <div class="input-group">
+                <div class="input-group-text rounded-0 bg-danger border-danger text-white">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <textarea class="form-control rounded-0 border-danger text-white bg-transparent"
+                  placeholder="MEESAGE *" rows="5" required></textarea>
+              </div>
+            </div>
+
+            <div class="d-grid">
+              <button class="btn btn-outline-danger rounded-0 text-uppercase" type="submit">
+                  SEND MESSAGE
+              </button>
+            </div>
+          </form>
+        </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="animasyon.js"></script>
+    
+  </body>
+</html>
